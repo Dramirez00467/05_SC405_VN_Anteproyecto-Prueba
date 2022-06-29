@@ -3,4 +3,18 @@
   <groupId>05_SC405_VN_Anteproyecto-Prueba</groupId>
   <artifactId>05_SC405_VN_Anteproyecto-Prueba</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ <dependencies>
+<dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-java</artifactId>
+  <version>3.14.0</version>
+    <scope>test</scope>
+   </dependency>
+ <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+   </dependency>
+ </dependencies>
 </project>
